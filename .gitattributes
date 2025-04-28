@@ -1,0 +1,9 @@
+# Force correct language detection
+*.php linguist-language=PHP
+*.js linguist-language=JavaScript
+
+# Ignore unnecessary folders (future safe)
+vendor/** linguist-vendored
+node_modules/** linguist-vendored
+build/** linguist-vendored
+dist/** linguist-vendored
